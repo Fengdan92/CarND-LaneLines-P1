@@ -36,18 +36,8 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 9. Turn the x values into integers as requested by cv2.line.
 10. Plot the extrapolated lines using cv2.line.
 
-Here is how the pipeline works in details:
+Example of how the pipeline works is shown in P1_fengdan.ipynb
 
-Grayscale:
-![](./test_images_output/grayscale.jpg)
-Gaussian blur:
-![](./test_images_output/gaussian-blur.jpg)
-Canny edge detection:
-![](./test_images_output/canny.jpg)
-Hough transform line detection in region of interest and extrapolation:
-![](./test_images_output/hough_extrapolated.jpg)
-Final result (overlay):
-![](./test_images_output/solidWhiteRight_extrapolate.jpg)
 
 ### 2. Identify potential shortcomings with your current pipeline
 
